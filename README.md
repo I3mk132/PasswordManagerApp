@@ -1,6 +1,7 @@
 # 🔐 Password Manager
 
 A simple yet functional desktop Password Manager built using **WinForms**, **ADO.NET**, and **SQL Server**. This application helps users store, retrieve, and manage their passwords securely. It includes a built-in password generator and supports user **Sign Up / Login** with password **hashing** for security.
+Project Overview: https://drive.google.com/file/d/1umZrVX_b_ntC6Xwqd6-dglLLMN9glMzn/view?usp=sharing
 
 ---
 

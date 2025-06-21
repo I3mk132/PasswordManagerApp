@@ -1,37 +1,45 @@
 # 🔐 Password Manager
 
-A simple and secure desktop application to manage your passwords. Built with a focus on user privacy and security, this app allows users to generate strong passwords, store credentials securely, and manage them with full CRUD (Create, Read, Update, Delete) operations.
+A simple yet functional desktop Password Manager built using **WinForms**, **ADO.NET**, and **SQL Server**. This application helps users store, retrieve, and manage their passwords securely. It includes a built-in password generator and supports user **Sign Up / Login** with password **hashing** for security.
 
 ---
 
-## ✨ Features
+## 🧰 Features
 
 - ✅ **User Authentication**
-  - Signup and login functionality
-  - Secure password storage with hashing (e.g., SHA-256 or bcrypt)
+  - Sign Up and Login with password hashing
+  - Secure password storage using SHA256 (or similar algorithm)
 
-- 🔐 **Password Management**
-  - Add, view, edit, and delete saved credentials
-  - Search or filter through stored passwords
+- 🔐 **Password Management (CRUD)**
+  - Create, Read, Update, and Delete saved credentials
+  - Categorize or tag entries (e.g., Email, Social Media, Banking, etc.)
 
-- 🔢 **Password Generator**
-  - Built-in generator to create strong, random passwords
-  - Customizable options: length, symbols, numbers, etc.
+- 🔄 **Password Generator**
+  - Built-in tool to generate strong, random passwords
 
----
-
-## 🛠️ Tech Stack
-
-- Programming Language: C# / Python / Java (choose your stack)
-- GUI Framework: Windows Forms / Tkinter / JavaFX
-- Storage: Local file (e.g., encrypted JSON) or SQL database
-- Security: Password hashing using SHA-256 / bcrypt
+- 📁 **Database Integration**
+  - Uses **SQL Server** as backend database
+  - Data access via **ADO.NET**
 
 ---
 
-## 🧪 How to Run
+## 💻 Technologies Used
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/password-manager.git
-   cd password-manager
+- **C#**
+- **Windows Forms (WinForms)**
+- **ADO.NET**
+- **SQL Server**
+- **.NET Framework**
+
+
+---
+
+## 🔒 Security Considerations
+
+- Passwords in the login system are **hashed** (e.g., using SHA256) before being stored in the database.
+- Users can only access and manage their own saved credentials.
+- Use parameterized SQL queries to prevent SQL injection.
+
+---
+
+

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PasswordGeneratorForm));
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.tbLength = new System.Windows.Forms.TrackBar();
             this.chkHasNumbers = new System.Windows.Forms.CheckBox();
@@ -113,6 +114,7 @@
             this.Controls.Add(this.chkHasNumbers);
             this.Controls.Add(this.tbLength);
             this.Controls.Add(this.txtPassword);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PasswordGeneratorForm";
             this.Text = "PasswordGeneratorForm";
             this.Load += new System.EventHandler(this.PasswordGeneratorForm_Load);

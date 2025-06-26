@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditUserFrom));
             this.btnCancelEditProfile = new System.Windows.Forms.Button();
             this.btnApplyEditProfile = new System.Windows.Forms.Button();
             this.mtxtUserPassword = new System.Windows.Forms.MaskedTextBox();
@@ -220,6 +221,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblEditUser);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EditUserFrom";
             this.Text = "EditUserFrom";
             this.Load += new System.EventHandler(this.EditUserFrom_Load);

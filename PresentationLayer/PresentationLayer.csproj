@@ -107,6 +107,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.cs</DependentUpon>
@@ -129,6 +130,13 @@
       <Project>{76b612b7-9f93-4b06-a419-33e0d6e4826f}</Project>
       <Name>BussinesLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PasswordManagerIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\PasswordManagerIcon.ico" />
+    <Content Include="Assets\PasswordManagerIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

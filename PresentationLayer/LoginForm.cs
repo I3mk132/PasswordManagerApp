@@ -45,5 +45,9 @@ namespace PresentationLayer
             mtxtLoginPassword.UseSystemPasswordChar = (!chkViewPassword.Checked);
         }
 
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

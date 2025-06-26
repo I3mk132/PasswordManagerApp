@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addRecordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -380,6 +381,7 @@
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnPasswordGenerator);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.MainForm_Load);
